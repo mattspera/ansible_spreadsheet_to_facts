@@ -1,0 +1,10 @@
+---
+- name: Test Ansible Modules
+  hosts: localhost
+  gather_facts: False
+  
+  tasks:
+  
+  - name: Read all sheets within spreadsheet
+    spreadsheet_to_facts:
+      src: test_spreadsheet.xlsx
