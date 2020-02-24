@@ -8,3 +8,9 @@
   - name: Read all sheets within spreadsheet
     spreadsheet_to_facts:
       src: test_spreadsheet.xlsx
+
+  - name: Read specific sheet within spreadsheet
+    spreadsheet_to_facts:
+      src: test_spreadsheet.xlsx
+      sheets:
+        - zones
