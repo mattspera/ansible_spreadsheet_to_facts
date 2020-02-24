@@ -32,7 +32,7 @@ options:
         type: list
 
 author:
-    - Matthew Spera (@smatt241)
+    - Matthew Spera (@mattspera)
 '''
 
 EXAMPLES = '''
